@@ -41,7 +41,7 @@ const Work = ({isDarkMode}) => {
             className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
              style={{backgroundImage: `url(${project.bgImage})`}} 
             key={index}>
-               <div className=' flex bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 items-center justify-between duration-500 group-hover:bottom-7'>
+               <Link href={project.link} target='_blank' className=' flex bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 items-center justify-between duration-500 group-hover:bottom-7'>
                <div >
                     <h2 className='font-semibold '>{project.title} </h2>
                     <p className='text-sm text-gray-700 '>{project.description} </p>
@@ -50,13 +50,13 @@ const Work = ({isDarkMode}) => {
                 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition '>
                     <Image src={assets.send_icon} alt='send' className='w-5' /> 
                 </div>
-               </div>
+               </Link>
                 
             </motion.div>
         ))}
 
       </motion.div>
-      <motion.div
+      {/* <motion.div
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       trannsition={{delay:1.1, duration: 0.5}}>
@@ -64,7 +64,7 @@ const Work = ({isDarkMode}) => {
       border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20
        hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'> Show More 
        <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='right arrow' className=' w-4'/></Link>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   )
 }

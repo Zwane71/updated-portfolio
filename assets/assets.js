@@ -78,24 +78,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Agrivista',
+        description: 'Responsive landing page ',
         bgImage: '/work-1.png',
+        link: 'https://agrivista.vercel.app/'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Crypto-Dashboard app',
+        description: 'Website interface',
+        bgImage: '/work-2.jpg',
+        link: 'https://bit-tracker-f6xd.vercel.app/'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'PropertyHive ',
+        description: 'Real Estate Website',
         bgImage: '/work-3.png',
+        link: 'https://www.propertyhive.com.ng/'
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
+        link: 'https://www.figma.com/proto/yaJaXtCOCPYtCFctADFV5a/sign-up-form?node-id=6-29&starting-point-node-id=6%3A29&t=QffJLSx4Tmfj4uPQ-1'
     },
 ]
 
