@@ -39,13 +39,15 @@ const About = ({isDarkMode}) => {
         transition={{duration:0.6, delay:0.8}}
         className='flex-1'>
             <p className='mb-10 max-w-2xl font-Ovo'> 
-                Intermediate Frontend Developer with a strong foundation in JavaScript, HTML, and CSS, passionate 
-                about creating responsive and user-friendly web applications. I thrive in collaborative environments 
-                and consistently deliver high-quality results. 
-                Currently transitioning into Full-Stack Development, I utilize my expertise in Next.js, TailwindCSS, 
-                React, and Node.js to develop innovative and scalable solutions. Alongside my web development 
-                experience, I am expanding my skills in mobile development, exploring frameworks like React Native to 
-                build intuitive and accessible mobile applications.
+            Intermediate Frontend Developer with strong skills in JavaScript,
+             HTML, and CSS, focused on building responsive, user-friendly web 
+             applications. I work well in team environments and always aim to 
+             deliver high-quality results. With expertise in Next.js, TailwindCSS, 
+             React, and Node.js, I create innovative and scalable solutions that meet 
+             both user needs and business goals. Currently transitioning into Full-Stack 
+             Development, I am expanding my abilities to build powerful, reliable applications. 
+             As I explore mobile development with React Native, I’m dedicated to making seamless, 
+             intuitive apps that work across both web and mobile platforms.
             </p>
             <motion.ul
             initial={{opacity:0,}}

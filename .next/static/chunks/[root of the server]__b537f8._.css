@@ -633,6 +633,10 @@ img, video {
   width: 1.75rem;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
 .w-9 {
   width: 2.25rem;
 }
@@ -643,10 +647,6 @@ img, video {
 
 .w-max {
   width: max-content;
-}
-
-.w-72 {
-  width: 18rem;
 }
 
 .max-w-2xl {
