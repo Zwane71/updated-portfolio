@@ -26,10 +26,9 @@ const Services = ({isDarkMode}) => {
       whileInView={{opacity:1, y:0}}
       transition={{delay:0.7, duration:0.5}}
       className='text-center max-w-2xl mx-auto mt-5 mb-5 font-Ovo'>
-        I am a Frontend Developer from the beautiful city of Maseru,
-        Lesotho. I've been honing my skills and building user-friendly 
-        web interfaces for less than a year, combining creativity with 
-        technical expertise to bring ideas to life.  
+        Offering expertise in responsive websites, mobile apps,
+         and user-centric design, blending creativity with technical
+          development to deliver intuitive and visually engaging digital products.
       </motion.p>
       <motion.div
       initial={{y:-20, opacity:0}}
